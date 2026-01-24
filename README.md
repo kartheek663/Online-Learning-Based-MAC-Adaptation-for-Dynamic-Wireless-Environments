@@ -1,0 +1,2 @@
+# Online-Learning-Based-MAC-Adaptation-for-Dynamic-Wireless-Environments
+Online Learning-Based MAC Adaptation  proposes a Deep Reinforcement Learning framework for IoT to optimize energy efficiency, latency, and throughput. It reviews ML methods and introduces a lightweight, decentralized protocol for dynamic wireless environments, effectively addressing the limitations found in traditional static systems.
