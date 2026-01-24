@@ -1,0 +1,298 @@
+\documentclass[a4paper,fleqn]{cas-dc}
+\usepackage[numbers]{natbib}
+
+\usepackage{mathtools}
+\usepackage{booktabs}
+
+\usepackage{flushend}
+
+
+\usepackage{graphicx}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{amsmath}
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\usepackage{amssymb}  % Add this for \mathbb
+\usepackage{tikz}
+\usepackage{subcaption}
+
+\numberwithin{equation}{section}
+
+\begin{document}
+\let\WriteBookmarks\relax
+\def\floatpagepagefraction{1}
+\def\textpagefraction{.001}
+
+\shorttitle{Intelligent Intrusion Detection Framework}
+\shortauthors{N Kartheek et~al.}
+
+\title [mode = title]{Online Learning-Based MAC Adaptation for Dynamic Wireless Environments}                      
+
+%name: NALIGALA KARTHEEK
+%REG NO :23MIS7257
+%MAIL ID: kartheeknaligala663@gmail.com
+%orcid : 0009-0006-9370-7778
+
+\author[1]{N KARTHEEK}[orcid=0009-0006-9370-7778]
+\ead{kartheeknaligala663@gmail.com}
+\address[1]{School of Computer Science and Engineering, VIT-AP University, Amaravathi. Andhra Pradesh, India}
+
+
+
+\cortext[cor1]{Corresponding author}
+
+\begin{abstract}
+This research is focused on the development of adaptive MAC protocols that are capable of improving the performance of devices connected through the Internet of Things. The paper reviews several different methods for developing an online learning-based adaptation approach to enable network nodes to adaptively develop MAC protocols in real time. Using the findings from a variety of different studies, the authors analyse the ability of intelligent agents to learn about the environment where they are operating and develop adaptive behaviours based on experience gained from interacting with the real-world environment. In addition, the paper examines the impact of adaptive MAC protocols on a number of key issues related to wireless networking, including the trade-off between energy efficiency and latency in Wireless Body Area Networks, the deafness problem in directional millimeter wave communication, and the need for deterministic latency in Time-Sensitive Networking. The study concludes that the application of online learning to MAC protocol design provides better performance in terms of throughput, reliability, and energy efficiency for wireless nodes than traditional approaches such as IEEE 802.15.6 and CSMA/CA.
+\end{abstract}
+
+\begin{keywords}
+Online Learning \sep 
+Adaptive MAC Protocols \sep 
+Deep Reinforcement Learning \sep 
+Internet of Things (IoT) \sep
+Dynamic Wireless Environments \sep 
+Multi-Objective Optimization \sep
+Energy Efficiency \sep
+Multi-Agent Learning \sep
+Deep Q-Network (DQN) \sep
+State-Action Space Optimization
+\end{keywords}
+
+
+\maketitle
+
+
+
+\section{Introduction}
+These days, more gadgets connect online than ever before. Because so many signals share the airwaves, old network methods start to creak under pressure. When devices pop in and out constantly, standard ways of managing access begin to stumble. Packet crashes happen more often than expected under such chaos. Energy sips faster than needed due to constant retransmissions. Latency swings without warning, making predictions tricky. Fixed rules built years ago cannot bend quickly enough to match today’s shifting traffic rhythms. Conditions of the signal change too fast for rigid systems to keep pace properly. Facing these issues makes it essential to adapt MAC protocols using online learning methods. Devices can then tweak how they talk by reacting quickly to changes around them.
+
+Lately, machine learning together with reinforcement learning has become useful for improving MAC performance. Instead of fixed rules, smart agents now handle tasks like timing slot assignments, adjusting power levels, or shifting wireless channels. Take one example where artificial networks analyze signals across multiple bands - this setup adapts both frequency use and data speeds on the fly. Often these new systems beat older methods when handling diverse network loads. Just like that, Q-Learning methods have worked well in Wireless Body Area Networks, helping cut energy use while boosting data speed - especially needed for live health tracking.
+
+Change happens most clearly when learning shapes how specialized wireless systems adjust. This shift takes hold where adaptivity becomes part of the core behavior
+
+Right now, TSN leans on smart systems like WISE algorithm - part of DRL tools - to lock down exact delay times when factory or car plant tasks need them most.
+
+Instead of guessing, a smart DQN system picks moments to send beams, sidestepping dead spots in millimeter-wave ad hoc networks. Without one leader guiding everything, it chooses paths where signals actually reach receivers. Timing matters more when there is no central control.
+
+When resources are tight, special edge tools step in. One example, Hyperdimensional Computing - known as HD-RL - handles messy data well while keeping demand low. This makes it workable on hardware that can barely handle modern tasks.
+
+Beyond numbers, today’s MAC needs to think differently - blending lower-level signals so networks adapt smarter, stay safer. Instead of just tweaking speed, some ideas now use Federated Learning, letting devices learn together without sharing sensitive data. This kind of setup fits well with open radio architectures where access is shared across parties.
+
+This study looks closely at how people learn online. Instead it focuses on smart systems that pick up cues from actual behavior, adjusting power, speed, and delay tradeoffs on the fly. Drawing insights from oceanic sensors to traffic-linked connectivity, one thing becomes clear: shifting control mechanisms in wireless tech can build tougher, self-healing networks.. 
+\subsection{background and context}
+Shifting patterns in wireless traffic expose gaps in old Mac designs, especially where chaos rules - like IoT setups, body-area networks, urgent data flows, or shared airwaves. Instead of fixed rules, some systems now tweak themselves on the fly using feedback from live exchanges. Learning while running helps adjust timing, power, access lanes, task splits, order, and frequency hopping without fixed blueprints. Machines that watch their mistakes grow smarter over seconds, adapting beyond static assumptions. With these methods, network devices adjust how they send data on their own, using no pre-built predictions. They handle changes better, using less power, cutting delays, while making fuller use of available spectrum when conditions shift unexpectedly.
+\subsection{Research Opportunities}
+Despite the promises made on adaptive MAC protocols, dynamic wireless environments still present some challenges. The network environments, including mobility, interference and the traffic patterns vary rapidly and therefore, it is not simple to ensure that the utilization of the fixed protocols is effectively deployed. The energy capabilities of sensor nodes and IoT devices represent energy limits due to which the complexity of the computational approach to the learning methods cannot be chosen. In a bid to gain consistency of performance, the online learning algorithms need to be stable and converge within a short time. Other security problems such as black holes attacks, wormhole attacks and the denial of service attacks complicate the process of designing a protocol. The coordination between cross layers is needed to achieve optimal performance and the heterogeneous nature of the device complicates the delivery of the various quality-of-service requirements simultaneously at the lowest signaling overhead.between resource and performance constraints. Adaptive MAC Security would be tightened, including combination of anomaly detection and trust models - would help in fighting the emerging risks.Where the devices are interconnected by trembling connections, threats arise. Even though cross-layer routing actions ensure that nothing happens, the routing basis fails in the event of some threats. Failure of one of the impaired routes will put a whole network offline - there will be no servers needed to issue notices.A concatenation of real signal properties and timing information on the network path may work well had you done a comedy of manners changing information about gadgets. This type of change can minimise the number of collisions.Cashing smart will translate into minimized latency, and it will optimize data figure as well. As it is, speed has already been enhanced in performance.
+Traffic alters the manner of operations - everything around and all the moves are different.When there is a shift of agents to different channels, then the certain behaviors will be more inclined to testify results. Multi-agent learning can be step-wise - providing personalized response even under complex conditions rather than being a unified unit.networks. IoT, VANETs definition and underwater networks.Specialized engines offer hard numbers of performance boosts that manifest themselves as custom hardware when the standard processors begin to shine through enhancements. Lastly, learning-based MAC protocols can also be more quickly applied and evaluated.Think of how measuring tools of tracking progress came into view. There were a number of steps that began to have an impact on decisions. Milestones got a different connotation because it had rules that were established by an individual.simulation models that were successful in other dynamic wireless settings.\cite{Latif2025156170}
+
+\subsection{research objectives}
+Develop and Design an Adaptive Deep Reinforcement Learning Framework for Optimising Dynamic MAC Protocols
+This goal centres on creating an updated MAC protocol using deep reinforcement learning. It adjusts itself based on shifts within the wireless environment. Moving beyond older methods like dlmac and rlDC forms a key aim here. The system relies on complex learning models - such as Double DQN or PPO - to adjust how devices access the medium. Decentralised operation eliminates the need for a single control hub. Achieving this means tackling the tension between trying new things and sticking with what works, especially when settings keep shifting. Unlike older methods that rely on fixed rules or manual tuning, the updated system learns from real-time feedback - adapting to how people actually use the network. Because devices have limited processing power, smart decisions must happen quickly without excessive load. As density rises, data flow changes, or signal quality shifts, the approach adjusts automatically. Year-round performance, energy conservation, and optimal spectrum use become steady outcomes rather than isolated events.\cite{Ni2024138519}\cite{Kim202412918}
+Designing an Effective Intelligent State-Action Space for Multiple-Objective MAC Optimization
+A key goal here is creating a design that represents the state-action space well, taking into account key dynamics in networks but staying clear of the scaling issues common in multi-agent setups. This work aims to simplify state representation without losing crucial information for managing multi-objective SDMAC networks. Key factors like remaining power, channel conditions, queue loads, and past transmission events will shape the simplified state model. At the same time, the size of learning tools - such as tables or neural nets - will remain manageable. From another angle, actions taken must balance high throughput against low latency. Fairness across agents needs to hold steady under varying conditions. Energy use throughout decisions becomes a guiding constraint throughout. Together, these elements form a framework where performance, equity, and efficiency all have room to operate. Out here, rewards get shaped so they fit how different kinds of IoT apps handle quality of service - like industrial automation where timing rules tight, whereas environmental watching moves slow without rush.\cite{Kim2024}\cite{Kim202412918}
+The achievement of stability in the change of wireless settings is in objective three. Its aim? To create reliable techniques for adapting learning as environments evolve. Where signals fluctuate fast, steady performance often slips - here, solutions take shape. Unpredictable movement, data spikes, and fluid network states demand smart responses. Instead of fixed approaches, methods like replay-based training or targeted neural networks step in. Adaptations such as fading epsilon-greedy schedules help adjustments settle more smoothly. Even drawing from past experiences via transfer learning finds value in these dynamic scenarios. Convergence speeds up while accuracy holds firm across changes. Sudden changes in the environment - like a node crashing or signal loss - need handling fast. Instead of redoing model training every time, the system uses methods that adjust quickly on their own. Techniques like these allow the model to respond even when things go sideways mid-task. Learning updates happen not just now but also later, shaping choices over time through smart weighting. This way, performance stays close to best during shaky moments. Convergence speed improves compared to older DQN-style setups running slow.\cite{Ni2024138519}\cite{Adamu2025457}
+Assessing and Comparing Proposed Method with Best available: Evaluate on a Performance Basis Current MAC Protocols to Show Performance of Proposed Approach in Multiple Networks\cite{Kim202412918}
+This goal aims to carefully evaluate what gains the suggested approach can bring as a web-based MAC setup, using detailed simulations and tested experiments across real-world settings. Instead of quick checks, it relies on thorough validation when examining how well the method works in varied conditions. When placed next to today's standard wireless protocols - like CSMA/CA or AQSen-MAC - the review looks at differences in response time, data speed, reliability, power usage, and balance. That comparison covers both reactive types (such as RCMac) and learning-driven ones (including QX-MAC and WISE). What stands out is the method’s performance measured under realistic situations: fixed networks dealing with steady, scheduled data flows. It also handles mixed traffic mixes - where devices send both regular and sudden bursts of information. Mobile devices are included too, along with setups where more or fewer devices connect across different areas. Channel behavior matters just as much: slow declines, unpredictable spikes, or abrupt shifts in physical conditions are all covered. On top of that, a look at computation costs and storage needs will help assess how well the method scales when applied to massive networks. Since it has to handle big datasets, understanding its strength under real-world stress matters. When machines fail, does the system keep running? That resilience test shapes how reliable the approach truly is. With hard facts in hand, the case for this new MAC grows stronger. Not just another option - it could outperform existing ones in future wireless IoT setups.\cite{Xin20251042}\cite{Ni2024138519}
+
+
+\section{Literature Survey}
+\subsection{Machine Learning and Optimization-Based MAC Protocols}
+Priority encoding schemes of machine learning based hybrid MAC protocol of wireless sensor networks that are energy efficient.This is a combination of machine learning algorithms and hybrid MAC architecture to achieve priority-based encoding schemes of wireless sensor networks which assigns full transmission priorities dynamically depending on traffic features and the energy state of the nodes. Pros: can increase total system energy by using smart assignment of priorities; can dynamically change Southbound traffic based on the resulting traffic flow; minimizes the delay of high-priority traffic due to offering a better channel allocation; can use learned transmission strategies to better utilize idle capacity in the channel. Limitations: ML algorithms have high computational uses affecting constrained node purpose in a network; demands expansive sets of training information to educate; and performance in a dynamical network network is reduced; in massive convoluted systems centralized coordination of learning can become a bottleneck.\cite{Albalawi2025}
+
+Machine-to-machine communication Design of hybrid MAC protocol based on machine diversion in modified marine predators optimization algorithm.
+Proposed Work: The work uses bio-inspired modified marine predators minimization algorithm to automatically set parameters of MAC protocols such as contention window sizes, transmission probabilities and backoff strategies of machine-to-machine communication networks. Benefits Bio-inspired optimization allows automatic particular setting adapting without any human assistance; actually consumes less energy by means of optimized channel access; makes systems adaptive to diverse network environments; and achieves better throughput operation in M2M networks. Limitations Dynamic environments may take a long time to converge to optimal solutions; a lack of real-time responsiveness to sudden network changes; the complexity of optimization grows exponentially with the size of the network; careful parameter initialisation of algorithms can be required; the process can converge to local optima.\cite{Sammaiah2025235}\cite{Poornima2025}
+
+
+Machine learning mediated aggregation conscious bitmap MAC protocol of data transmission in WSNs that is energy efficient.
+Proposed Work: Invents ML-based bitmap based MAC protocol with data aggregation awareness in wireless sensor networks using smart slot distribution algorithms training on the historical behavior of the network and network traffic. Pros: Markedly collision-free intelligent slot allocation using the intelligence of network patterns; energy-saving data aggregation schemes; intelligent and adaptive learning to the best transmission times; enhances the overall network throughput, and packet delivery ratio. Limitations Training overhead: Training overhead is a major factor in the initial network performance; bitmap management population grows with network density; scalability lacks in large dense networks; it needs a centralized learning coordination infrastructure; the rate of adaptation is limited by the time required to converge to learning.\cite{Alanazi2025}
+
+
+APEX Automated Parameter Exploration Low-Power wireless protocols.
+
+Proposed Work: Introduces an automated system of exploration and optimization of MAC protocol parameter settings in different network conditions, which does not require manual parameter optimization by an extensive parameter space exploration and performance analysis. Benefits: Removes any parameter tuning work; can automatically search the best protocol parameters; can adjust the exploration strategy to any deployment environment; does whole-parameter space performance analysis; minimizes time-to-deployment and configuration failures. Weaknesses: Exploration may be time-consuming and may demand a lot of computational time; online adaptation may be limited during realistic network operation; needs extensive testing programs and simulation machine facilities; can fail to find good tunings in sparse exploration; real-time responsiveness is restricted by offline optimization.\cite{MohamedHydher2025}
+
+\subsection{Reinforcement Learning-Based MAC Protocols}
+Decentralized Multi-agent Reinforcement Learning based on consensus, on optimization of random access network.
+
+Proposed Work: Showcases the decentralized multi-agent reinforcement learning scheme with consensus schemes in optimizing random access MAC protocols, which allow the decentralized agents to learn jointly without having any centralized coordination and to generalize mutual agreement of the optimal channel access schemes. Pros: Fully distributed learning does not need centralized coordination; can effectively scale up to large networks; agents can learn as a result of a consensus mechanism; resistant to single-point failures; can be effectively learned even in the absence of global state information. Limitations: In heterogeneous network setups converging is difficult and much communication overhead is needed to bring consensus in a heterogeneous network; learning cannot adapt to quick environmental changes easily; and implementation demands are complicated by the inability of the system to remain in a single agent view due to changing environment.\cite{Oh2025241}
+
+
+TSCH Network Scheduling Scheme based on Reinforcement Learning in the IEEE 802.15.4e.
+
+Proposed Work: Proposes a scheme of reinforcement learning in dynamical scheduling of Time-Slotted Channel Hopping (TSCH) MAC in IEEE 802.15.4e industrial IoT networks, which learns an optimal slot allocation scheme depending on the real observed traffic demand and channel conditions. Benefits: Dynamically starts and stops transmissions on the basis of learned traffic mode; greatly exceeds the network throughput and causes minimal delay; learns the optimum slot assignments and is not manually configured; effectively becomes time varying; can be used in automation using the industry. Limitations: The initial trainability has a deleterious effect on the initial network behavior; state-space complexity grows with network size; has poor generalization abilities, across network type topologies; demand high computational capacity to learn, that of TSCH networks, there is a synchronization cost caused by the nature of learning.\cite{Zerguine202527060}
+
+
+interference- and Demand-Aware Full-Duplex MAC Next-Generation IoT A Dual-Phase Contention Generator with Priority Dynamical Scheduling.
+
+Work Proposal: Dual-phase MAC protocol with several mechanisms of interference awareness, prediction of traffic demands and dynamic priority scheduling mechanisms which are specifically designed to be used by the full-duplex capable next-generation IoT devices that maximize the chance of simultaneous transmission of two-way traffic. Pros: Effectively uses full-duplex transmission features; very low chance of collision due to smart utilization of bandwidth; recalculates priorities in transmission according to the demands; better use of spectrum; can efficiently manage heterogeneous traffic. Limitations: Must have advanced self-interference cancellation hardware resources; high implementation cost; greater energy consumption when operating in full-duplex mode; lower flexibility to facilitate rapid topology changes; cost-concerns in the hardware of resource-constrained devices.\cite{Tian2025}
+
+
+Q-Learning Based Scheme of neighbor discovery and power control in marine opportunistic Networks.
+
+Proposed Work: Generates Q-learning solution to jointly optimization of neighbor discovery procedures and transmission power control in opportunistic networks at sea so as to learn optimal strategies that optimize the efficiency of discovery operations with the energy consumption limit. Benefits: Intelligently adjusts the transmission power based on observed environment conditions; finds neighbors more efficiently dubious in sparse networks; learns energy-wisely to operate over long periods; collaboratively discovers and manages power control; manages a sea-based propagation issues. Limitations: slowness of convergence of learning in sparse network topology; exploration-exploitation trade-offs slow down optimal performance; sparse deployments cannot be scaled out; large state space representations are needed; the marine channel is not predictable; marine channel variability can slow learning.\cite{Haripriya2025673}\cite{Arslan2023}
+
+
+
+A Cross Layer Aware Hybrid Routing Algorithm Federated Q-Learning and Ant Colony Optimization in Wireless Sensor Networks.
+
+Proposed Work: It is a federated Q-learning and ant colony optimization (combining) to jointly cross-layer optimize a wireless sensor network (MAC and routing) and privacy preserving distributed learning to optimize end-to-end network performance. Benefits: Privacy-preserving federated learning secures local information; optimizes the MAC and routing decisions together to achieve system-wide performance; allows collaborative learning in a distributed way; effectively makes use of resources by means of cross-layer awareness; adapts to the dynamics of the network. Limitations Federated learning has convergence delays; large model parameter updates; simple coordination mechanisms are necessary; large networks are difficult to scale; convergence in learning can be influenced by difference in capabilities of nodes.\cite{Zhang2025}
+
+\subsection{Deep Learning and Advanced Adaptive MAC Protocols}
+10.A MAC control of channel access integration, rate adjustment and channel switching based on deep-learning.
+
+The Proposed Work: The Proposed work is a single deep learning system, which would calculate the channel access schemes, rate adjustment of the transmission and also channel switching arrangement as a single integrated layer of the MAC optimization and learning complex schemes through the deep neural networks. Merits: Is fully optimizationally in both functions of multiple MACs simultaneously; has learnt the non-linear behavior of hotel networks; provided better in highly dynamic channels; multi-dimensional optimization achievable; various traffic and channel conditions possible. Limitations: The resource constrained systems available cannot be intensively computed; fairly large training data must be generated; very low interpretability of the model; issues with deployment with the standard IoT devices; each deep learning processing burns a lot of energy; specialized hardware is required.\cite{Bandara2025}
+
+MAC control through the use of channel-access, rate-adjustment, and switching channels with the assistance of deep-learning.
+Proposed Safe Work: The Proposed work is an integrated deep-learning structure that will resolve channel access protocols as well as rate control of transmission and channel switching organization as sub-elements of one single layer of the MAC optimization and learning multi-faceted structures using the deep neural networks. Merits: Optimized total utility of all the two functions of multiple MACs at the same time; it can learn the non-linear behavior of hotel networks; it is more successful in the highly dynamic channels; purposeful multi-dimensional optimization is possible; several features of traffic and channels may be fulfilled. Limitations: The available systems with limited resources are not able to experience intensive computations; extensive amounts of training data is needed; the model is not easily interpretable; the standard IOT equipment is challenging to implement; a deep learning operation may use much power; it demands specific hardware acceleration\cite{Alhattab2025}.
+
+Reinforcement Learning-Based Time-Slotted Protocol: A Reinforcement Learning Approach for Optimizing Long-Range Network Scalability
+This work brings together reinforcement learning techniques with a time-slotted MAC protocol. Its main goal is tackling scale issues in long-range wireless setups. By adjusting slot allocations on the fly, it reduces collisions across big networks. Instead of fixed plans, the system learns how best operate under real-world conditions. Efficiency stays high even when more devices join. Long-distance signal behavior gets accounted for naturally. Handling crowds of connected units becomes manageable without slowdown. Still, bigger networks mean heavier sync loads. As size climbs, reaching agreement takes longer. Spiky data flows struggle to fit within its framework. When clusters grow, math behind decisions also sharpens up. Keeping clocks aligned across all needs solid foundations.
+
+
+Deep Q-Learning Based Adaptive MAC Protocol with Collision Avoidance and Efficient Power Control for UWSNs
+This work brings together deep Q-learning, smart collision avoidance, and adjustable power control tailored for underwater wireless sensors. It tackles the special difficulties in underwater acoustic signals by teaching how data should be transmitted. Benefits: Handles acoustic propagation issues well underwater. Adjusts power use to save energy. Reduces collision risks using intelligent methods trained on data. Works in tough underwater conditions where others might fail. Keeps both performance and power consumption balanced. Drawbacks: Unpredictable behavior of the underwater channel makes training harder. Propagation delays slow down how fast systems can learn. Different underwater settings often lead to poor consistency in results. Running complex neural networks demands significant power. Feedback from underwater data is often rare, making updates hard.\cite{Rahman2025}
+
+EC-MAC: Energy-Aware Cooperative MAC Protocol in Wireless Sensor Network
+This work introduces a cooperative MAC approach tailored for energy-conscious sensor networks using relay structures. Instead of fixed paths, it adapts by choosing relay nodes based on current conditions. Better reliability comes from combining signals across multiple paths when possible. Energy stays spread because decisions shift depending on load and battery levels. Networks last longer simply because some tasks get paused during low-power phases. Success in transmitting data climbs alongside smarter initial setup choices. Tough radio environments are managed more reliably thanks to real-time adjustments. Still, learning new patterns happens only slowly. When situations change, existing plans do not adjust automatically. Coordinating relays takes effort, which slows overall performance. As more devices join, keeping them organized becomes harder. Setting up cooperation needs extra data exchanges.\cite{Elshabasy2025224}
+
+
+Cross-Layer Design Approaches for High-Density Wireless Environments
+This work proposes optimization methods that consider multiple layers when dealing with MAC issues in crowded wireless environments. Instead of working isolatedly, physical, data link, and network layers share data to achieve better overall results. Because it views the system as a whole, the approach tackles problems more relevant to high-density situations. Better coordination across layers leads to improved performance under heavy loads. Key points include how different layers affect each other and why alignment matters. For dense setups, it offers practical advice to help engineers make better choices. Still, putting this into practice can be difficult due to intricate requirements. Not every system follows uniform rules, which adds difficulty. Coordinating layers takes effort, especially when speed is essential. Blending new logic with current frameworks often proves tricky.\cite{Khamzaev2025498}
+
+
+Energy-efficient approaches in wireless body area networks - a detailed review
+This work outlines key methods used to save energy within wireless body area networks. It focuses on medium access techniques suitable for health tracking devices. Different ideas come into play - like timed schedules or competitive methods - to manage data flow efficiently. Each approach gets examined based on performance and resource use. The method chosen often depends on how devices connect and send information. Some designs blend multiple techniques to balance speed and power consumption. Real-world needs shape which approach works better in certain situations. While useful, the study relies heavily on existing work already published. Original experiments or new protocol development appear minimal here. Specific numbers showing improved results are missing altogether. Adaptive learning rules that adjust on the fly remain undefined entirely\cite{Boumaiz2025}.
+
+
+Energy Efficient Adaptive Bit-Mapping Based Collision-Free MAC Protocol for VANETs
+A new approach takes shape here. Adaptive bitmap protocols emerge for vehicle networks, aiming to cut collisions by shifting time slots on the fly - built for fast movement and shifting connections. This version works when cars move quickly across changing layouts. Benefits include zero crashes in traffic flows, smart handling of erratic routes, better use of available signal space. Rapid reshaping of road conditions gets managed without hiccups. Critical safety messages stay reliable under pressure. Still, learning on the fly stays quite limited. Working well means precise live data about vehicles’ movements and where they’ll go next. Too many cars create heavy bitmap loads on traffic networks. When cities pack vehicles tightly, system performance can dip. How fast adjustments happen depends on how well car paths are foretold.\cite{Tolani2025}
+
+
+
+
+
+Latency-Aware Cross-Layer Signaling for Energy-Efficient CRNs
+
+A fresh take on network design shows how layers work together when timing matters most in cognitive radio setups, adjusting power use and speed needs as spectrum shifts happen. What stands out is how well it manages two often clashing goals at once. Instead of fixed settings, the method changes signals based on real-time conditions across frequencies. This flexibility becomes key where channel access keeps changing rapidly. Even though early versions exist, real-world testing under varying loads remains limited.
+
+
+
+Still, adapting to changing learning environments isn’t its strong suit. Spectrum monitoring eats up a lot of resources. When different networks mix, things quickly get tangled. It needs sharp cognitive radio smarts to keep up. On top of that, rules and agreements keep tripping it up.\cite{Chen2025}
+
+ Bit-Mapping Based Security-Aware Energy-Efficient MAC Protocol for LoRaWAN
+
+This work introduces a bitmap-based MAC protocol tailored for LoRaWAN environments, focusing on stronger security without compromising low-power operation. Instead of traditional approaches, it uses smart slot scheduling to manage resources more carefully. Security features are woven into the transmission planning itself, reducing exposure windows. Even though energy consumption stays minimal, defenses against common attacks improve noticeably. Because devices communicate over long distances, protection must adapt to varying network conditions. By blending power management with safety functions, overall system resilience grows under real-world loads.
+
+
+
+Security rules stay unchanged unless new threats trigger updates - adaptability here is limited when facing evolving risks. Even though safeguards exist, handling current breaches demands more flexibility than seen so far. Because protection routines run tasks, performance pressure builds up over time. When many LoRaWAN networks scale together, coordination becomes harder than expected. While setups work fine at first, adjusting them later proves rigid due to locked-down safety settings.\cite{TusharVikash202552497}
+
+DFROG-MAC: A Dynamic Fragmentation-Based MAC for Prioritised Emergency Data Management in Vehicular Networks
+
+Starting off, the method uses active fragmentation to manage urgent data in vehicle networks, placing top-priority signals first. It adapts how messages are split based on their importance, which helps cut down time before help arrives. One key benefit is faster delivery of vital information under pressure. Since devices in these environments send different kinds of updates, handling varied needs comes naturally here. For situations where seconds matter, reliability holds strong. Where traffic, weather, or alerts pile up, the system keeps pace without losing focus on timing. Still, learning new signal rules takes time; flexibility in training has its limits. Splitting data costs resources, especially when many devices talk at once. Putting fragmented pieces back together demands careful work. Getting message types right matters, yet mistakes can happen. Most changes happen through fixed rules instead of growing from examples learned\cite{Khan2025}.
+
+ \cite{}DA+BMAC: Distance-Aware Bidirectional Medium Access Control for Mesh Wireless Network-on-Chip
+
+This work brings together a method that adapts based on how far data travels across the network. Built for mesh designs inside processors, it adjusts how packets move depending on the actual layout. Instead of a one-way approach, information flows both ways to balance usage across cores. Where paths cross frequently, the system adjusts so devices do not clash as much. Performance gains come from smarter routing decisions rooted in real structure knowledge. Yet, its usefulness fades when the hardware setup changes dramatically. Because it relies on set assumptions about environment structure, flexibility drops under different conditions. Learning happens only before execution begins, so responses stay predictable even when context shifts slightly. Adjustments occur before runtime but never reflect evolving behavior patterns detected later during operation.\cite{Rusli2025140914}
+\subsection{Research Gap}
+Existing learning-based MAC protocols face critical limitations that hinder practical deployment in dynamic wireless environments. Deep learning-based MAC schemes integrating channel access, rate adaptation, and channel switching achieve holistic optimization but incur high computational overhead, large training data requirements, and poor suitability for resource-constrained IoT devices. Reinforcement learning-based duty-cycling and scheduling protocols suffer from slow convergence, state-space explosion, and limited scalability, resulting in prolonged suboptimal performance. Moreover, many RL-based approaches lack generalization across network topologies and traffic patterns, requiring retraining for new environments. Cross-layer and federated learning-based MAC solutions introduce significant coordination and communication overhead, further limiting scalability. Existing methods also struggle with multi-objective optimization involving latency, energy efficiency, throughput, and fairness. Overall, there remains a need for lightweight, computationally efficient online learning-based MAC frameworks that ensure rapid convergence, adaptability, and scalability for real-time operation in dynamic wireless environments.
+\subsection{motivation}
+The motivation for online learning-based MAC adaptation arises from the limitations of static MAC protocols in handling the dynamic and heterogeneous nature of modern wireless networks. Large-scale IoT deployments across industrial, healthcare, and smart transportation domains demand autonomous adaptation to varying traffic, interference, and channel conditions. While deep learning-based MAC protocols achieve superior performance, their computational complexity limits deployment on resource-constrained devices. Latency-critical applications further require rapid adaptation and stable convergence, which existing learning-based schemes often lack. Energy-efficient MAC protocols based on static heuristics fail to adapt to fluctuating energy and traffic conditions. Moreover, centralized and federated learning approaches introduce scalability and coordination overhead. These challenges motivate lightweight, decentralized online learning-based MAC frameworks that enable fast convergence, energy efficiency, scalability, and real-time adaptability in dynamic wireless environments.
+\subsection{problem section}
+The fundamental problem addressed in this research is the design of an online deep reinforcement learning–based MAC protocol that autonomously adapts medium access strategies in dynamic wireless environments while operating within the computational and energy constraints of resource-limited IoT devices. Existing deep learning-based MAC protocols achieve holistic optimization but are impractical for microcontroller-based hardware, while static MAC schemes fail under time-varying channel and traffic conditions. Current learning-based approaches suffer from slow convergence, high complexity, poor scalability, and limited multi-objective optimization. Key challenges include designing lightweight yet expressive state-action representations, enabling joint optimization of throughput, latency, energy efficiency, and fairness, and ensuring rapid, stable convergence under dynamic conditions. Addressing these issues requires decentralized, computationally efficient learning frameworks suitable for real-world IoT deployments.
+
+[5:52 pm, 18/01/2026] Thrishna: \begin{table*}[htbp]
+\centering
+\caption{Summary of Remaining Reference Papers - Part I}
+\label{tab:remaining_papers_1}
+\small
+\begin{tabular}{|L{0.8cm}|L{3.2cm}|L{2.8cm}|L{3cm}|L{3.5cm}|}
+\hline
+\textbf{Ref.} & \textbf{Method Proposed} & \textbf{Techniques Used} & \textbf{Issues Resolved} & \textbf{Limitations} \\
+\hline
+
+{\cite{Srinivasan2025}} & Cross-layer security framework for detecting and mitigating blackhole and wormhole attacks in wireless ad-hoc networks & Anomaly detection, cross-layer monitoring, trust-based mechanisms, packet verification & Blackhole attack detection, wormhole attack prevention, enhanced network security, malicious node identification & Limited focus on MAC adaptation; primarily security-focused; not learning-based; high computational overhead for security monitoring \\
+\hline
+
+{\cite{Bandara2025}} & Time-reversal based MAC protocol exploiting channel reciprocity for wireless networks in computing packages & Time-reversal signal processing, channel reciprocity exploitation, spatial focusing techniques & Interference mitigation in confined spaces, improved signal focusing, reduced power consumption, enhanced reliability & Application-specific to computing packages; limited generalization; requires special hardware capabilities; lacks online learning mechanisms \\
+\hline
+
+{\cite{De2025}} & Comprehensive survey of multimedia transmission strategies over LoRa networks for IoT applications & LoRa modulation, adaptive data rate, compression techniques, QoS management strategies & Identifies challenges in multimedia over LoRa, deployment strategies, bandwidth limitations, energy constraints & Survey paper without novel protocol contribution; lacks implementation details; no adaptive learning mechanisms proposed \\
+\hline
+
+{\cite{Mosavat2025}} & Wake-up receiver-based communication protocol for energy harvesting batteryless devices & Wake-up radio, energy harvesting, ultra-low-power communication, asynchronous MAC & Energy efficiency for batteryless operation, eliminates idle listening, enables batteryless communication & Hardware-specific requiring wake-up receivers; limited to batteryless scenarios; not broadly applicable; lacks dynamic learning-based adaptation \\
+\hline
+
+{\cite{Yang2025}} & Diffusion-based frequency hopping mechanism for mitigating collisions in high-density Bluetooth networks & Diffusion algorithms, adaptive frequency hopping, collision detection, distributed coordination & Collision mitigation in dense Bluetooth networks, improved coexistence, enhanced throughput, reduced interference & Bluetooth-specific application; limited generalization; computational complexity in dense scenarios; lacks comprehensive learning framework \\
+\hline
+
+\end{tabular}
+\end{table*}
+[5:53 pm, 18/01/2026] Thrishna: \begin{table*}[htbp]
+\centering
+\caption{Summary of Remaining Reference Papers - Part II}
+\label{tab:remaining_papers_2}
+\small
+\begin{tabular}{|L{0.8cm}|L{3.2cm}|L{2.8cm}|L{3cm}|L{3.5cm}|}
+\hline
+\textbf{Ref.} & \textbf{Method Proposed} & \textbf{Techniques Used} & \textbf{Issues Resolved} & \textbf{Limitations} \\
+\hline
+
+{\cite{LoCigno2025}} & Analysis of physical layer security threats and countermeasures for IoT wireless systems & Physical layer security, signal fingerprinting, jamming detection, eavesdropping prevention & Identifies PHY-layer vulnerabilities, security threat analysis, privacy protection mechanisms & Primarily analysis and survey work; limited MAC-layer focus; lacks novel adaptive protocol design; no online learning components \\
+\hline
+
+{\cite{Wagner2025}} & MAC aggregation techniques optimized for lossy wireless channels in DTLS 1.3 protocol implementations & Frame aggregation, error correction, DTLS protocol optimization, reliable transmission techniques & Improved reliability over lossy channels, reduced overhead, enhanced security with aggregation & Specific to DTLS 1.3 protocol; limited broader wireless applicability; not focused on dynamic adaptation; lacks learning-based optimization \\
+\hline
+
+{\cite{Sammaiah2025235}} & Fundamental principles and challenges in terahertz frequency wireless networking systems & Terahertz propagation, beamforming, molecular absorption modeling, ultra-high-speed communication & Identifies THz networking challenges, propagation characteristics, system design principles & Survey and analysis paper; no specific MAC protocol proposed; emerging technology with limited practical deployment; primarily theoretical \\
+\hline
+
+{\cite{Alward2025}} & Analytical study examining communication protocols and actuator collaboration in wireless sensor-actuator networks & Mathematical modeling, performance analysis, cooperative communication protocols, actuator coordination & Communication-actuation coordination, theoretical performance bounds, system modeling, design guidelines & Analytical study without implementation; lacks practical validation; no adaptive learning components; theoretical focus limits applicability \\
+\hline
+
+{\cite{Nagao2025607}} & Stabilized multi-hop routing protocol using modified link quality metrics for Wi-SUN Field Area Networks & Modified link metrics, multi-hop routing, route stability mechanisms, Wi-SUN protocol optimization & Route stability in multi-hop networks, improved link quality assessment, reduced route changes & Primarily routing-focused rather than MAC-layer; Wi-SUN specific; limited dynamic learning capabilities; lacks online adaptation \\
+\hline
+
+\end{tabular}
+\end{table*}
+
+
+\section{Conclusion}
+
+EFS-IDS is an efficient, scalable intrusion detection framework that can be used to overcome the shortcomings of the traditional IDS in an IoT context due to the problem of class imbalance.
+
+
+
+\subsection{authors}
+
+
+
+
+
+\section*{Declarations}
+\subsection*{Ethical Approval}
+This manuscript reports studies that do not involve human participants, human data, human tissue, or animals.
+
+\subsection*{Conflict of Interest}
+The authors have no conflict of interest to declare that are relevant to the content of this article.
+
+\subsection*{Authors' Contributions}
+S. Gopikrishnan contributed to the conceptualization, Formal analysis, drafting the original manuscript, and designing the experimental protocols. Author-2 was responsible for Conceptualization, methodology, software implementation, and dataset curation. Author3 contributed to conceptualization, supervision, and in-depth analysis of the experimental results. Author-3 handled the review and editing of the final draft, as well as the overall validation of the study results.
+
+
+\subsection*{Funding}
+The authors did not receive financial support from any organization for the submitted work.
+
+\subsection*{Availability of data and materials}
+Data sharing is not applicable to this article, as no new data were created or analyzed in this study.
+
+\subsection*{Acknowledgment}
+We acknowledge that the hardware utilized in this research for evaluation is a part of the Intel IoT Center for Excellence, VIT-AP University. 
+
+\bibliographystyle{cas-model2-names}
+\bibliography{references}
+
+
+\end{document}
+
